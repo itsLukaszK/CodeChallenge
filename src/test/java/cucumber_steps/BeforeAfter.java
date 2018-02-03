@@ -29,6 +29,7 @@ public class BeforeAfter {
 
     @Before
     public void beforeTest() {
+        System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"\\geckodriver.exe");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         mainPage.goToMainPage();
         assertEquals(driver.getTitle(), "The world's leading software development platform · GitHub");
@@ -37,11 +38,13 @@ public class BeforeAfter {
     @After
     public void afterTest() {
         driver.get(getMainPage() + getUSERNAME() + "/" + getRepositoryName());
-        assertEquals(driver.getTitle(), getUSERNAME() + "/" + getRepositoryName());
+        //assertTrue(wait.until(ExpectedConditions.titleIs(getUSERNAME() + "/" + getRepositoryName())));
+        //assertEquals(driver.getTitle(), getUSERNAME() + "/" + getRepositoryName());
         repository.clickSettingsLink();
         assertTrue(wait.until(ExpectedConditions.titleIs("Options")));
         options.clickDeleteThisRepositoryButton();
         options.inputRepositoryName(getRepositoryName());
         options.confirmDeletingTheRepository();
+        driver.quit();
     }
 }
