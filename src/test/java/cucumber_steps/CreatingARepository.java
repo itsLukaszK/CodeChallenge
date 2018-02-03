@@ -1,39 +1,31 @@
 package cucumber_steps;
 
 import cucumber.api.PendingException;
-import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import pages.CreateANewRepository;
 import pages.HomePage;
+import pages.MainPage;
 import pages.SignIn;
 
-import java.util.concurrent.TimeUnit;
-
+import static cucumber_steps.BeforeAfter.createANewRepository;
+import static cucumber_steps.BeforeAfter.driver;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
+import static pages.SignIn.getUSERNAME;
 
-public class GithubCom {
-    private WebDriver driver = new FirefoxDriver();
-    private HomePage homePage = new HomePage(driver);
+public class CreatingARepository {
+    private MainPage mainPage = new MainPage(driver);
     private SignIn signIn = new SignIn(driver);
+    private HomePage homePage = new HomePage(driver);
     WebDriverWait wait = new WebDriverWait(driver, 10L);
-
-    @Before
-    public void beforeTest() {
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        homePage.goToHomePage();
-        assertEquals(driver.getTitle(), "The world's leading software development platform · GitHub");
-    }
 
     @Given("^User is logged in$")
     public void userIsLoggedIn() {
-        // TODO
-        homePage.clickSignInLink();
+        mainPage.clickSignInLink();
         assertEquals(driver.getTitle(), "Sign in to GitHub · GitHub");
         signIn.inputCorrectUsername();
         signIn.inputCorrectPassword();
@@ -41,10 +33,15 @@ public class GithubCom {
         assertTrue(wait.until(ExpectedConditions.titleIs("GitHub")));
     }
 
-    @When("^User creates a repository called 'Name'$")
-    public void userCreatesARepositoryCalledName() throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+    @When("^User creates a repository called '(.*)' containing ReadMe$")
+    public void userCreatesARepositoryCalledName(String name) {
+        createANewRepository.setRepositoryName(name);
+        homePage.selectNewRepositoryDropdownItem();
+        assertEquals(driver.getTitle(), "Create a New Repository");
+        createANewRepository.inputRepositoryName();
+        createANewRepository.selectInitializeThisRepositoryWithAReadmeBox();
+        createANewRepository.clickCreateRepositoryButton();
+        assertTrue(wait.until(ExpectedConditions.titleIs(getUSERNAME() + "/" + CreateANewRepository.getRepositoryName())));
     }
 
     @Then("^The repository 'Name' exists$")

@@ -13,18 +13,14 @@ public class HomePage {
         PageFactory.initElements(driver, this);
     }
 
-    private static final String HOME_PAGE = "https://github.com/";
+    @FindBy(css = "summary.HeaderNavlink[aria-label='Create new…']")
+    WebElement createNewButton;
 
-    @FindBy(css = "a.text-bold[href='/login']")
-    WebElement signInLink;
+    @FindBy(css = "a.dropdown-item[href='/new']")
+    WebElement newRepositoryDropdownItem;
 
-    public void goToHomePage() {
-        driver.get(HOME_PAGE);
+    public void selectNewRepositoryDropdownItem(){
+        createNewButton.click();
+        newRepositoryDropdownItem.click();
     }
-
-    public void clickSignInLink() {
-        signInLink.click();
-    }
-
-
 }

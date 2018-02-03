@@ -39,4 +39,12 @@ public class SignIn {
     public void clickSignInButton() {
         signInButton.submit();
     }
+
+    public static String getUSERNAME() {
+        return USERNAME;
+    }
+
+    public static String getPASSWORD() {
+        return PASSWORD;
+    }
 }
