@@ -25,4 +25,8 @@ public class Repository {
         WebElement fileLink = driver.findElement(By.cssSelector("a[title='"+fileName+"']"));
         fileLink.click();
     }
+
+    public void doesRepositoryNameExist(){
+
+    }
 }

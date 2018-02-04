@@ -1,7 +1,10 @@
 package cucumber_steps;
 
+import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import pages.CreateANewRepository;
@@ -13,6 +16,7 @@ import static cucumber_steps.BeforeAfter.createANewRepository;
 import static cucumber_steps.BeforeAfter.driver;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
+import static pages.CreateANewRepository.getRepositoryName;
 import static pages.SignIn.getUSERNAME;
 
 public class CreatingARepository {
@@ -39,8 +43,13 @@ public class CreatingARepository {
         createANewRepository.inputRepositoryName();
         createANewRepository.selectInitializeThisRepositoryWithAReadmeBox();
         createANewRepository.clickCreateRepositoryButton();
-        assertTrue(wait.until(ExpectedConditions.titleIs(getUSERNAME() + "/" + CreateANewRepository.getRepositoryName())));
+        assertTrue(wait.until(ExpectedConditions.titleIs(getUSERNAME() + "/" + getRepositoryName())));
     }
 
+    @Then("^The repository has been created$")
+    public boolean theRepositoryHasBeenCreated() {
+        String xpath = "//a[contains(text(), '" + getRepositoryName() + "')]";
+        return driver.findElements(By.xpath(xpath)).size() > 0;
+    }
 }
 

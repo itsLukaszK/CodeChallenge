@@ -2,8 +2,13 @@ package pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
+import java.util.List;
+
+import static pages.SignIn.getPASSWORD;
 
 public class Options {
     private WebDriver driver;
@@ -22,16 +27,29 @@ public class Options {
     @FindBy(xpath = "//button[contains(text(),'I understand the consequences, delete this repository')]")
     WebElement deleteThisRepositoryConfirmationButton;
 
-    public void clickDeleteThisRepositoryButton(){
+    @FindAll(@FindBy(id = "sudo_password"))
+    List<WebElement> sudoPasswordInputCheck;
+
+    @FindBy(id = "sudo_password")
+    WebElement sudoPasswordInput;
+
+    public void clickDeleteThisRepositoryButton() {
         deleteThisRepositoryButton.click();
     }
 
-    public void inputRepositoryName(String name){
+    public void inputRepositoryName(String name) {
         repositoryNameInput.clear();
         repositoryNameInput.sendKeys(name);
     }
 
-    public void confirmDeletingTheRepository(){
+    public void confirmDeletingTheRepository() {
         deleteThisRepositoryConfirmationButton.submit();
+    }
+
+    public void provideSudoPasswordIfRequired() {
+        if (sudoPasswordInputCheck.size() > 0) {
+            sudoPasswordInput.clear();
+            sudoPasswordInput.sendKeys(getPASSWORD());
+        }
     }
 }
