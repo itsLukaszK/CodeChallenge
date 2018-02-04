@@ -1,13 +1,11 @@
 package cucumber_steps;
 
-import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import pages.CreateANewRepository;
 import pages.HomePage;
 import pages.MainPage;
 import pages.SignIn;
@@ -23,7 +21,7 @@ public class CreatingARepository {
     private MainPage mainPage = new MainPage(driver);
     private SignIn signIn = new SignIn(driver);
     private HomePage homePage = new HomePage(driver);
-    WebDriverWait wait = new WebDriverWait(driver, 10L);
+    private WebDriverWait wait = new WebDriverWait(driver, 10L);
 
     @Given("^User is logged in$")
     public void userIsLoggedIn() {

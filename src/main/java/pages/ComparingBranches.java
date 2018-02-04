@@ -16,14 +16,7 @@ public class ComparingBranches {
     @FindBy(xpath = "//button[text()='Create pull request']")
     WebElement createPullRequestButton;
 
-    @FindBy(css = "div.merging-body h3.h4")
-    WebElement branchConflictsInformation;
-
-    public void clickCreatePullRequestButton(){
+    public void clickCreatePullRequestButton() {
         createPullRequestButton.submit();
-    }
-
-    public WebElement getBranchConflictsInformation() {
-        return branchConflictsInformation;
     }
 }

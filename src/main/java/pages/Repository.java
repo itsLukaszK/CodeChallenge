@@ -17,16 +17,13 @@ public class Repository {
     @FindBy(css = "a[href$='/settings']")
     WebElement settingsLink;
 
-    public void clickSettingsLink(){
+    public void clickSettingsLink() {
         settingsLink.click();
     }
 
-    public void openAFile(String fileName){
-        WebElement fileLink = driver.findElement(By.cssSelector("a[title='"+fileName+"']"));
+    public void openAFile(String fileName) {
+        WebElement fileLink = driver.findElement(By.cssSelector("a[title='" + fileName + "']"));
         fileLink.click();
     }
 
-    public void doesRepositoryNameExist(){
-
-    }
 }

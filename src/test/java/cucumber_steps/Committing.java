@@ -12,9 +12,9 @@ import static pages.FilePage.getFileName;
 import static pages.FilePage.getNewFileName;
 
 public class Committing {
-    Repository repository = new Repository(driver);
-    FilePage filePage = new FilePage(driver);
-    EditingFile editingFile = new EditingFile(driver);
+    private Repository repository = new Repository(driver);
+    private FilePage filePage = new FilePage(driver);
+    private EditingFile editingFile = new EditingFile(driver);
 
     @When("^User changes the name of the '(.*)' file to '(.*)' and chooses '(.*)'$")
     public void userChangesTheNameOfTheFileNameFileToNewFileNameAndChoosesCommitType(String fileName, String newFileName, String commitType) {

@@ -41,7 +41,7 @@ public class CreateANewRepository {
         if (!initializeThisRepositoryWithAReadmeBox.isSelected()) initializeThisRepositoryWithAReadmeBox.click();
     }
 
-    public void clickCreateRepositoryButton(){
+    public void clickCreateRepositoryButton() {
         createRepositoryButton.submit();
     }
 }

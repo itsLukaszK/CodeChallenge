@@ -45,7 +45,7 @@ public class HomePage {
         return expectedDeletingConfirmation.trim().equals(deletingConfirmationText.getText().trim());
     }
 
-    public void signOut(){
+    public void signOut() {
         userMenuButton.click();
         signOutButton.click();
     }
