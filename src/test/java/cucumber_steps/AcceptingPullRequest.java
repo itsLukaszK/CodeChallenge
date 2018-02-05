@@ -18,6 +18,7 @@ public class AcceptingPullRequest {
     public void userAcceptsPullRequest() throws InterruptedException {
         pullRequests.chooseThePullRequestToBeAccepted();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h3[text()='This branch has no conflicts with the base branch']")));
+        wait.until(ExpectedConditions.visibilityOf(pullRequests.getMergePullRequestButton()));
         pullRequests.clickMergePullRequestButton();
         wait.until(ExpectedConditions.elementToBeClickable(pullRequests.getConfirmMergeButton()));
         pullRequests.clickConfirmMergeButton();

@@ -2,17 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49f4c224-f457-42f3-9c49-b37f4a3d73be" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ComparingBranches.java" afterPath="$PROJECT_DIR$/src/main/java/pages/ComparingBranches.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/EditingFile.java" afterPath="$PROJECT_DIR$/src/main/java/pages/EditingFile.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/Options.java" afterPath="$PROJECT_DIR$/src/main/java/pages/Options.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/FilePage.java" afterPath="$PROJECT_DIR$/src/main/java/pages/FilePage.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/PullRequests.java" afterPath="$PROJECT_DIR$/src/main/java/pages/PullRequests.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/cucumber_steps/AcceptingPullRequest.java" afterPath="$PROJECT_DIR$/src/test/java/cucumber_steps/AcceptingPullRequest.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/cucumber_steps/Committing.java" afterPath="$PROJECT_DIR$/src/test/java/cucumber_steps/Committing.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/cucumber_steps/CreatingPullRequest.java" afterPath="$PROJECT_DIR$/src/test/java/cucumber_steps/CreatingPullRequest.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/ComparingBranches.class" afterPath="$PROJECT_DIR$/target/classes/pages/ComparingBranches.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/pages/EditingFile.class" afterPath="$PROJECT_DIR$/target/classes/pages/EditingFile.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/Options.class" afterPath="$PROJECT_DIR$/target/classes/pages/Options.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/FilePage.class" afterPath="$PROJECT_DIR$/target/classes/pages/FilePage.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/PullRequests.class" afterPath="$PROJECT_DIR$/target/classes/pages/PullRequests.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumber_steps/AcceptingPullRequest.class" afterPath="$PROJECT_DIR$/target/test-classes/cucumber_steps/AcceptingPullRequest.class" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/cucumber_steps/Committing.class" afterPath="$PROJECT_DIR$/target/test-classes/cucumber_steps/Committing.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumber_steps/CreatingPullRequest.class" afterPath="$PROJECT_DIR$/target/test-classes/cucumber_steps/CreatingPullRequest.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,118 +29,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GithubCom.feature" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GithubCom.feature" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/GithubCom.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+            <state relative-caret-position="0">
+              <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/HomePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Committing.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/cucumber_steps/Committing.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="27" column="29" lean-forward="false" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-              <folding>
-                <element signature="e#1771#1772#0" expanded="true" />
-                <element signature="e#1830#1831#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EditingFile.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/EditingFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="36" column="43" lean-forward="true" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
-              <folding>
-                <element signature="e#1164#1165#0" expanded="true" />
-                <element signature="e#1297#1298#0" expanded="true" />
-                <element signature="e#1345#1346#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreatingPullRequest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/cucumber_steps/CreatingPullRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding>
-                <element signature="e#512#513#0" expanded="true" />
-                <element signature="e#576#577#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AcceptingPullRequest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/cucumber_steps/AcceptingPullRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="14" column="56" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PullRequests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/PullRequests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-              <folding>
-                <element signature="e#1818#1819#0" expanded="true" />
-                <element signature="e#1864#1865#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeletingARepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/cucumber_steps/DeletingARepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="34" column="32" lean-forward="false" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Options.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/Options.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SignIn.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/SignIn.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-              <folding>
-                <element signature="e#1091#1092#0" expanded="true" />
-                <element signature="e#1122#1123#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -168,9 +66,6 @@
         <option value="$PROJECT_DIR$/src/main/java/pages/SignIn.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/File.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/MainPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/FilePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/ComparingBranches.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/CreateANewRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/HomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/cucumber_steps/CreatingARepository.java" />
         <option value="$PROJECT_DIR$/src/test/java/cucumber_steps/DeletingARepository.java" />
@@ -178,11 +73,14 @@
         <option value="$PROJECT_DIR$/src/test/resources/GithubCom.feature" />
         <option value="$PROJECT_DIR$/src/test/java/cucumber_steps/BeforeAfter.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/Options.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/CreateANewRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/FilePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/EditingFile.java" />
         <option value="$PROJECT_DIR$/src/test/java/cucumber_steps/Committing.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/ComparingBranches.java" />
         <option value="$PROJECT_DIR$/src/test/java/cucumber_steps/CreatingPullRequest.java" />
         <option value="$PROJECT_DIR$/src/test/java/cucumber_steps/AcceptingPullRequest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/PullRequests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/EditingFile.java" />
       </list>
     </option>
   </component>
@@ -214,9 +112,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -290,6 +185,9 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -549,25 +447,13 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__GithubCom - 2018.02.05 at 10h 52m 13s.xml">
+    <history-entry file="Feature__GithubCom - 2018.02.05 at 12h 25m 11s.xml">
       <configuration name="Feature: GithubCom" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__GithubCom - 2018.02.05 at 10h 58m 09s.xml">
+    <history-entry file="Feature__GithubCom - 2018.02.05 at 12h 40m 44s.xml">
       <configuration name="Feature: GithubCom" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__GithubCom - 2018.02.05 at 11h 06m 15s.xml">
-      <configuration name="Feature: GithubCom" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__GithubCom - 2018.02.05 at 11h 10m 35s.xml">
-      <configuration name="Feature: GithubCom" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__GithubCom - 2018.02.05 at 11h 15m 53s.xml">
-      <configuration name="Feature: GithubCom" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__GithubCom - 2018.02.05 at 11h 19m 58s.xml">
-      <configuration name="Feature: GithubCom" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__GithubCom - 2018.02.05 at 11h 31m 21s.xml">
+    <history-entry file="Feature__GithubCom - 2018.02.05 at 13h 02m 22s.xml">
       <configuration name="Feature: GithubCom" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
     <history-entry file="Scenario__Accepting_Pull_Request - 2018.02.05 at 10h 43m 28s.xml">
@@ -579,10 +465,21 @@
     <history-entry file="Scenario__Accepting_Pull_Request - 2018.02.05 at 10h 47m 50s.xml">
       <configuration name="Scenario: Accepting Pull Request" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
+    <history-entry file="Scenario__Accepting_Pull_Request - 2018.02.05 at 12h 26m 24s.xml">
+      <configuration name="Scenario: Accepting Pull Request" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Accepting_Pull_Request - 2018.02.05 at 12h 48m 57s.xml">
+      <configuration name="Scenario: Accepting Pull Request" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Accepting_Pull_Request - 2018.02.05 at 12h 51m 20s.xml">
+      <configuration name="Scenario: Accepting Pull Request" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Accepting_Pull_Request - 2018.02.05 at 12h 57m 07s.xml">
+      <configuration name="Scenario: Accepting Pull Request" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -592,7 +489,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32873806" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32873806" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -660,7 +557,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -709,9 +609,8 @@
         <state relative-caret-position="561">
           <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1771#1772#0" expanded="true" />
-            <element signature="e#1830#1831#0" expanded="true" />
+            <element signature="e#2236#2237#0" expanded="true" />
+            <element signature="e#2295#2296#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -744,11 +643,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="25" column="47" lean-forward="false" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#576#577#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -757,9 +652,9 @@
         <state relative-caret-position="340">
           <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#533#534#0" expanded="false" />
-            <element signature="e#581#582#0" expanded="false" />
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -785,9 +680,8 @@
         <state relative-caret-position="561">
           <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1771#1772#0" expanded="true" />
-            <element signature="e#1830#1831#0" expanded="true" />
+            <element signature="e#2236#2237#0" expanded="true" />
+            <element signature="e#2295#2296#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -804,11 +698,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="25" column="47" lean-forward="false" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#576#577#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -817,9 +707,9 @@
         <state relative-caret-position="340">
           <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#533#534#0" expanded="false" />
-            <element signature="e#581#582#0" expanded="false" />
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -853,9 +743,8 @@
         <state relative-caret-position="153">
           <caret line="17" column="49" lean-forward="true" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1771#1772#0" expanded="true" />
-            <element signature="e#1830#1831#0" expanded="true" />
+            <element signature="e#2236#2237#0" expanded="true" />
+            <element signature="e#2295#2296#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -925,46 +814,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/ComparingBranches.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#533#534#0" expanded="false" />
-            <element signature="e#581#582#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/CreateANewRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
-          <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
-          <folding>
-            <element signature="e#513#514#0" expanded="false" />
-            <element signature="e#1257#1258#0" expanded="false" />
-            <element signature="e#1304#1305#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/FilePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-238">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cucumber_steps/CreatingARepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="23" column="28" lean-forward="false" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/Repository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -976,26 +825,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="861">
           <caret line="61" column="21" lean-forward="false" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cucumber_steps/BeforeAfter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1015,7 +848,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
           <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1039,68 +871,134 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/PullRequests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/CreateANewRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+        <state relative-caret-position="211">
+          <caret line="31" column="4" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
           <folding>
-            <element signature="e#1818#1819#0" expanded="true" />
-            <element signature="e#1864#1865#0" expanded="true" />
+            <element signature="e#1257#1258#0" expanded="true" />
+            <element signature="e#1304#1305#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/GithubCom.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/java/cucumber_steps/BeforeAfter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        <state relative-caret-position="391">
+          <caret line="37" column="72" lean-forward="false" selection-start-line="37" selection-start-column="72" selection-end-line="37" selection-end-column="72" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cucumber_steps/CreatingARepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="23" column="64" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/FilePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+          <folding>
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/EditingFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="30" column="52" lean-forward="false" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
+          <folding>
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+            <element signature="e#1312#1313#0" expanded="true" />
+            <element signature="e#1356#1357#0" expanded="true" />
+            <element signature="e#1489#1490#0" expanded="true" />
+            <element signature="e#1537#1538#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/ComparingBranches.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="52" lean-forward="false" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+          <folding>
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/cucumber_steps/Committing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="27" column="29" lean-forward="false" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+        <state relative-caret-position="85">
+          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="64" />
           <folding>
-            <element signature="e#1771#1772#0" expanded="true" />
-            <element signature="e#1830#1831#0" expanded="true" />
+            <element signature="e#2236#2237#0" expanded="true" />
+            <element signature="e#2295#2296#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/cucumber_steps/CreatingPullRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/PullRequests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="63" column="27" lean-forward="false" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
           <folding>
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="false" />
+            <element signature="e#647#648#0" expanded="false" />
+            <element signature="e#794#795#0" expanded="false" />
+            <element signature="e#839#840#0" expanded="false" />
+            <element signature="e#2187#2188#0" expanded="false" />
+            <element signature="e#2233#2234#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/cucumber_steps/AcceptingPullRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="14" column="56" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="56" />
+        <state relative-caret-position="357">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/EditingFile.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/GithubCom.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="36" column="43" lean-forward="true" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
-          <folding>
-            <element signature="e#1164#1165#0" expanded="true" />
-            <element signature="e#1297#1298#0" expanded="true" />
-            <element signature="e#1345#1346#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>

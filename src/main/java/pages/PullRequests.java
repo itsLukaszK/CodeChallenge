@@ -20,8 +20,16 @@ public class PullRequests {
         PageFactory.initElements(driver, this);
     }
 
+    public WebElement getPullRequestsButton() {
+        return pullRequestsButton;
+    }
+
     @FindBy(css = "a[data-selected-links^='repo_pulls']")
     WebElement pullRequestsButton;
+
+    public WebElement getMergePullRequestButton() {
+        return mergePullRequestButton;
+    }
 
     @FindBy(xpath = "//button[contains(text(), 'Merge pull request')]")
     WebElement mergePullRequestButton;
@@ -31,6 +39,9 @@ public class PullRequests {
 
     @FindAll(@FindBy(xpath = "//h4[text()='Pull request successfully merged and closed']"))
     List<WebElement> pullRequestConfirmations;
+
+    @FindBy(css = "a.tabnav-tab[href$=\"pull/1\"]")
+    WebElement conversationButton;
 
     public void clickPullRequestsButton() throws InterruptedException {
         Thread.sleep(2000);
@@ -44,10 +55,14 @@ public class PullRequests {
     }
 
     public void chooseThePullRequestToBeAccepted() throws InterruptedException {
+        Thread.sleep(2000);
         String pullRequestTitle = "Rename " + getFileName() + " to " + getNewFileName();
         String xpath = "//a[contains(text(), '" + pullRequestTitle + "')]";
         driver.findElement(By.xpath(xpath)).click();
         Thread.sleep(2000);
+        conversationButton.click();
+        Thread.sleep(2000);
+
     }
 
     public void clickMergePullRequestButton() {

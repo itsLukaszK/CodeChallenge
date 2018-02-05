@@ -13,6 +13,10 @@ public class ComparingBranches {
         PageFactory.initElements(driver, this);
     }
 
+    public WebElement getCreatePullRequestButton() {
+        return createPullRequestButton;
+    }
+
     @FindBy(xpath = "//button[text()='Create pull request']")
     WebElement createPullRequestButton;
 

@@ -18,6 +18,10 @@ public class FilePage {
 
     public static String newFileName;
 
+    public WebElement getEditThisFileButton() {
+        return editThisFileButton;
+    }
+
     @FindBy(css = "button.btn-octicon[aria-label='Edit this file']")
     WebElement editThisFileButton;
 

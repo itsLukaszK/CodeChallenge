@@ -18,11 +18,19 @@ public class EditingFile {
     @FindBy(css = "input.form-control.js-blob-filename")
     WebElement fileNameInput;
 
+    public WebElement getCommitChangesButton() {
+        return commitChangesButton;
+    }
+
     @FindBy(xpath = "//button[contains(text(), 'Commit changes')]")
     WebElement commitChangesButton;
 
     @FindBy(css = "input[value='quick-pull']")
     WebElement choosePullRequestInput;
+
+    public WebElement getProposeFileChangeButton() {
+        return proposeFileChangeButton;
+    }
 
     @FindBy(xpath = "//button[text()='Propose file change']")
     WebElement proposeFileChangeButton;
