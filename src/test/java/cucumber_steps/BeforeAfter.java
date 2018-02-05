@@ -48,6 +48,7 @@ public class BeforeAfter {
         options.clickDeleteThisRepositoryButton();
         options.inputRepositoryName(getRepositoryName());
         options.confirmDeletingTheRepository();
+        options.provideSudoPasswordIfRequired();
         wait.until(ExpectedConditions.elementToBeClickable(homePage.getUserMenuButton()));
         mainPage.goToMainPage();
         homePage.signOut();
