@@ -18,7 +18,7 @@ public class CreatingPullRequest {
     }
 
     @Then("^The pull request has been created$")
-    public void thePullRequestHasBeenCreated() {
+    public void thePullRequestHasBeenCreated() throws InterruptedException {
         pullRequests.clickPullRequestsButton();
         assertTrue(pullRequests.isPullRequestTitleCorrect());
     }

@@ -15,7 +15,7 @@ public class AcceptingPullRequest {
     WebDriverWait wait = new WebDriverWait(driver, 10L);
 
     @When("^User accepts pull request$")
-    public void userAcceptsPullRequest() {
+    public void userAcceptsPullRequest() throws InterruptedException {
         pullRequests.chooseThePullRequestToBeAccepted();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h3[text()='This branch has no conflicts with the base branch']")));
         pullRequests.clickMergePullRequestButton();

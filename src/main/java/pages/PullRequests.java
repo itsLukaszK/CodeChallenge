@@ -32,7 +32,8 @@ public class PullRequests {
     @FindAll(@FindBy(xpath = "//h4[text()='Pull request successfully merged and closed']"))
     List<WebElement> pullRequestConfirmations;
 
-    public void clickPullRequestsButton() {
+    public void clickPullRequestsButton() throws InterruptedException {
+        Thread.sleep(2000);
         pullRequestsButton.click();
     }
 
@@ -42,10 +43,11 @@ public class PullRequests {
         return driver.findElements(By.xpath(xpath)).size() > 0;
     }
 
-    public void chooseThePullRequestToBeAccepted() {
+    public void chooseThePullRequestToBeAccepted() throws InterruptedException {
         String pullRequestTitle = "Rename " + getFileName() + " to " + getNewFileName();
         String xpath = "//a[contains(text(), '" + pullRequestTitle + "')]";
         driver.findElement(By.xpath(xpath)).click();
+        Thread.sleep(2000);
     }
 
     public void clickMergePullRequestButton() {

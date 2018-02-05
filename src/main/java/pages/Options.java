@@ -33,6 +33,9 @@ public class Options {
     @FindBy(id = "sudo_password")
     WebElement sudoPasswordInput;
 
+    @FindBy(xpath = "//input[contains(text(),'Confirm password')]")
+    WebElement confirmPasswordButton;
+
     public void clickDeleteThisRepositoryButton() {
         deleteThisRepositoryButton.click();
     }
@@ -50,6 +53,7 @@ public class Options {
         if (sudoPasswordInputCheck.size() > 0) {
             sudoPasswordInput.clear();
             sudoPasswordInput.sendKeys(getPASSWORD());
+            confirmPasswordButton.submit();
         }
     }
 }

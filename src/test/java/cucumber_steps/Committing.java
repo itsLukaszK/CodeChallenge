@@ -17,7 +17,7 @@ public class Committing {
     private EditingFile editingFile = new EditingFile(driver);
 
     @When("^User changes the name of the '(.*)' file to '(.*)' and chooses '(.*)'$")
-    public void userChangesTheNameOfTheFileNameFileToNewFileNameAndChoosesCommitType(String fileName, String newFileName, String commitType) {
+    public void userChangesTheNameOfTheFileNameFileToNewFileNameAndChoosesCommitType(String fileName, String newFileName, String commitType) throws InterruptedException {
         filePage.setFileName(fileName);
         filePage.setNewFileName(newFileName);
         repository.openAFile(getFileName());
